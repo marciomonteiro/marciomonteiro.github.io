@@ -33,6 +33,8 @@ p, address {
 .me {
     width: 100px;
     height: 100px;
+    object-fit: cover;
+    object-position: center top;
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
