@@ -30,6 +30,21 @@ p, address {
     margin-bottom: 0;
 }
 
+/* One font family throughout (base.css sets headings to Georgia) */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+
+/* Make links in the main column recognizable as links */
+.thirteen.columns a, .thirteen.columns a:visited {
+    color: #1f7a1b;
+}
+
+.thirteen.columns a:hover, .thirteen.columns a:focus {
+    color: #27A822;
+    text-decoration: underline;
+}
+
 .me {
     width: 100px;
     height: 100px;
@@ -112,10 +127,29 @@ article > header address + time::before {
     margin-right: 6px;
 }
 
+.summary {
+    margin-bottom: 30px;
+}
+
+.summary p {
+    font-size: 110%;
+    line-height: 150%;
+}
+
+section > h3 {
+    font-size: 100%;
+    line-height: 150%;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #808080;
+    margin: 10px 0 8px;
+}
+
 em {
     font-style: normal;
-    font-weight: bold;
-    color: rgb(100, 100, 100);
+    font-weight: normal;
+    color: inherit;
     /*margin-right: 6px;*/
 }
 
